@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #e6e6e6;
+}
+
+header {
+    background-color: dodgerblue;
+    width: 100vw;
+    height: 150px;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 2.5em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+
+#h1blog {
+    color: white;
+}
+
+header > nav {
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav a:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+main section.postagem {
+    margin: 20px auto;
+    width: 640px;
+    background-color: white;
+    padding: 20px;
+}
+
+main section.postagem h2 {
+    color: dodgerblue;
+
+}
+
+main section.postagem p.data {
+    font-size: 0.8em;
+    padding-bottom: 20px;
+}
+
+main section.postagem a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: dodgerblue;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+main img {
+    
+}
+
+main > section.resumo {
+    float: right;
+    background-color: white;
+    width: 250px;
+    height: 140px;
+    margin: 5px auto;
+    padding: 10px;
+    position: relative;
+    bottom: 675px;
+    right: 95px;
+}
+
+main > section.resumo > h3 {
+    background-color: grey;
+    padding: 5px;
+    color: rgb(63, 63, 63);
+}
+
+main > section.resumo > p {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+main > section.resumo > a {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+
+main > section.resumo > a:hover {
+    text-decoration: underline;
+}
+
+main > section.categorias {
+    background-color: white;
+    width: 250px;
+    height: 140px;
+    margin: 20px auto;
+    padding: 10px;
+    float: right;
+    position: relative;
+    left: 175px;
+    bottom: 520px;
+}
+
+main > section.categorias > a {
+    display: block;
+    color: dodgerblue;
+    text-decoration: none;
+    
+}
+
+main > section.categorias > h3 {
+    background-color: grey;
+    padding: 5px;
+    color: rgb(63, 63, 63);
+}
+
+#postagem1 {
+    float: left;
+    position: relative;
+    left: 200px;
+}
+
+#postagem2 {
+    float: left;
+    position: relative;
+    left: 200px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer > p {
+    background-color: grey;
+    text-align: center;
+    width: 870px;
+    margin: auto;
+    padding: 15px;
+}
